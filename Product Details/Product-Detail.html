@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----------------------------Head ----------------------------------------->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+    <title>Product Detail</title>
+    <link rel="icon" type="text/css" href="Icons/title.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <!---------------------------------- Attached cdn links ----------------------------------------->
+          <link rel="stylesheet" type="text/css" href="Product-Detail.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+          <!-- jQuery library -->
+          <script style="Product-Detail.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="Product-Detail.js"></script>
+
+          <!-- Popper JS -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+          <!-- Latest compiled JavaScript -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+         <!---------------------------------- font ----------------------------------------->
+          <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet">
+         <!---------------------------------- font ----------------------------------------->
+    <!---------------------------------- Attached cdn links ----------------------------------------->
+    
+
+  </head>  
+<!----------------------------Head ----------------------------------------->
+
+<!----------------------------Body ----------------------------------------->
+  	<body>
+  
+	<!-- ---------------------Header---------------------------------------->
+	  
+	      <div id="header" class="container-fluid fixed-top">
+
+	         <nav id="header" class="navbar navbar-expand-lg ">
+
+	              <a class="" href="#"> <img src="Icons/logo.png"> </a>
+
+	          
+	              <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-expanded="    false" aria-label="Toggle navigation">
+	                <div id="humbargar" class="block">
+	                  <div class="cta">
+	                    <div  class="toggle-btn type1"></div>
+	                  </div>
+	                </div>
+	              </div> 
+
+	            <div class="collapse navbar-collapse" id="navbarSupportedContent"><hr><hr><hr><hr><hr><hr>
+
+	                <!-- ---------------------menu-------------------------------------------- -->
+                              <div id="menu">
+                                <ul class="navbar-nav mr-auto ">
+
+                                  <li class="nav-item active dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <b>Category</b>
+                                    </a>
+                                    <div id="under-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item " href="#">
+                                      	<p  style="margin-top: 10px;">Accessories
+	                                      <ul>
+	                                          <li>
+	                                            bangladesh
+	                                          </li>
+	                                      </ul>
+                                      	</p>
+                                 	  </a>
+                                      <a class="dropdown-item" href="#"><p style="margin-top: 10px;">Bags</p>
+                                      </a>
+                                      <a class="dropdown-item " href="#"><p style="margin-top: 10px;">Electronics</p>
+                                      </a>
+                                      <a class="dropdown-item" href="#"><p style="margin-top: 10px;">Clothes</p>
+                                      </a>
+                                      <a class="dropdown-item " href="#"><p style="margin-top: 10px;">Interior Designs</p>
+                                      </a>
+                                      <a class="dropdown-item" href="#"><p style="margin-top: 10px;">Sofas</p>
+                                      </a>
+                                      <a class="dropdown-item " href="#"><p style="margin-top: 10px;">Special Chrismas</p></a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">
+                                      	<p style="margin-top: 5px;">Electronics</p>
+                                      </a>
+                                    </div>
+                                    
+                                  </li>
+
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"> <b> Home</b></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"> <b> Product</b></a>
+                                  </li>
+                                  
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"><b>About</b></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"><b>Support</b></a>
+                                  </li>
+                                </ul>
+                              </div><hr>
+	                <!-- ---------------------menu-------------------------------------------- -->
+
+	                <!-- ---------------------icon-------------------------------------------- -->
+                                <ul id="icon" class="navbar-nav ml-auto ">
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="#"> <img src="Icons/user.png"> </a>
+                                    </li>
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="#"> <img src="Icons/Search.png"> </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#"> <img src="Icons/whishlist.png"> </a>
+                                    </li>
+                                    
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="#"> <img src="Icons/Cart.png"> </a>
+                                    </li>
+                                </ul><hr>
+	                <!-- ---------------------icon-------------------------------------------- -->
+
+	                <!-- ---------------------language-------------------------------------------- -->
+                                <form>
+                                  <div class="form-row align-items-center align-center">
+                                    <div class="col-auto my-1">
+                                      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                                      <select  class="custom-select mr-sm-2" id="inlineFormCustomSelect" style="background-color: #f3f3f4; ">
+                                        <option selected>English</option>
+                                        <option value="1">Bangla</option>
+                                        <option value="2">Hini</option>
+                                        <option value="3">Urdu</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </form>
+	                <!-- ---------------------language-------------------------------------------- -->
+	            </div>
+	          </nav>
+	      </div><br><br>
+	<!-- ---------------------Header---------------------------------------->
+
+	<!-- ---------------------breadcrumb---------------------------------------->	
+			<br><br>	<nav aria-label="breadcrumb" style="margin-left: 16px;" >
+				  <ol class="breadcrumb" style="background-color: #ededed;">
+				    <li class="breadcrumb-item"><a href="#" style="color: gray;">Product</a></li>
+				    <li class="breadcrumb-item"><a href="#" style="color: gray;">Men shoe</a></li>
+				    <li class="breadcrumb-item active" style="color: red;">Product Details</li>
+				  </ol>
+				</nav><br>
+	<!-- ---------------------breadcrumb---------------------------------------->
+
+	<!-- ---------------------Product details---------------------------------------->
+		<div class="container">
+		  <div class="row">
+				    
+			<!-- ---------------------left-side-bar---------------------------------------->
+				<div id="left-side-bar" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-7">
+				     <p>$ 40.00</p><br>
+
+				     <div id="color-available-left-side-bar">
+
+				     	<div class="" id="accordionExample">
+						    <div id="headingOne">      
+						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						        	<div id="color-available-round" class="rounded-circle" style="margin-right: -13px;"></div>
+						          <p style="float: right;">Color Available</p>
+						        </button> 
+						    </div>
+						    <div id="collapseOne" class="collapse float-right " aria-labelledby="headingOne" data-parent="#accordionExample" style="width: 100px;">
+						      <div id="color-available-round" class="rounded-circle"></div>
+							  <div id="color-available-round" class="rounded-circle"></div>
+							  <div id="color-available-round" class="rounded-circle"></div><br>
+						    </div>
+						</div>
+
+				 		<div id="shoe-image" >
+					 		<a href=""><img src="image/shoe2.png"></a>
+					 		<a href=""><img src="image/shoe3.png"></a>
+					 		<a href=""><img src="image/shoe4.png"></a>
+				 		</div><br>
+
+				 		<div id="star-left-side-bar" style="float: right;">
+					 		<img src="Icons/star-gray.png">
+					 		<img src="Icons/star-gray.png">
+					 		<img src="Icons/star-gray.png">
+					 		<img src="Icons/star-gray.png">
+					 		<img src="Icons/star-gray.png">
+				 		</div><br><br>
+				 		
+				 		<div class="" id="Explore-Reviews">
+						    <div id="Explore-Reviews-left">      
+						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#Explore-Reviews-left-bar" aria-expanded="true" aria-controls="collapseOne">
+						        	<div id="color-available" class="float-right"></div>
+						         <p style="color: gray; font-family: Roboto; font-size: 19.5px; font-weight: bold;">
+									 Explore Reviews
+								 </p>
+						        </button> 
+						    </div>
+
+						    <div id="Explore-Reviews-left-bar" class="collapse" aria-labelledby="Explore-Reviews-left" data-parent="#Explore-Reviews">
+						       le element tied to the control to screen readers and similar assistive technologies. If the collapsible element is closed by default,
+						    </div>
+
+						</div>
+
+					</div>
+
+				</div>
+			<!-- ---------------------left-side-bar---------------------------------------->
+
+			<!-- ---------------------Middle-side-bar---------------------------------------->
+				<div id="center-side-bar" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+					<img class="img-fluid" src="image/shoe.png">
+				</div>
+			<!-- ---------------------Middle-side-bar---------------------------------------->
+
+			<!-- ---------------------Right-side-bar---------------------------------------->
+				<div id="right-side-bar" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-7">
+					<img src="Icons/timberland.png">
+					<p>Gray Numbuck mono</p><br>
+					<p id="size" style="margin-top: 0px;">Size</p>
+					<ul style="float: left; margin-top: 15px;">
+						<a href=""><li>35</li></a>
+						<a href=""><li>36</li></a>
+						<a href=""><li>37</li></a>
+						<a href=""><li>38</li></a>
+						<a href=""><li>39</li></a>
+						<a href=""><li>40</li></a>
+					</ul><br>
+					<p style="font-weight: bold; color: #5d5e60; font-family: Roboto; font-size: 20.5px; margin-top: 40px;">Quantity</p>
+					<div id="plus-minus" class="qty mt-5" style="margin-top: 60px !important;">
+		                <span class="minus" style="">-</span>
+		                <input type="number" class="count" name="qty" value="1">
+		                <span class="plus">+</span>
+	                </div>
+	                <div>
+	                <ul style=" margin-top: -40px;">
+						<a href=""><li><img src="Icons/zoom-gray.png"></li></a>
+						<a href=""><li><img src="Icons/whishlist-gray.png"></li></a>
+						<a href=""><li><img src="Icons/Cart.png"></li></a>
+					</ul>
+					</div>
+
+				</div>
+			<!-- ---------------------Right-side-bar---------------------------------------->
+
+		  </div>
+		</div><br><br><br><br><br><br>
+	<!-- ---------------------Product details---------------------------------------->
+
+	 <div class="container-fluid ">
+	      	<div class="row">
+
+	         	<!-- ---------------------left-side-bar---------------------------------------->
+			<div id="" class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+				<p style="font-family: Roboto; font-size: 20px; font-weight: 500; color: gray; margin-left: 16px;">Measurement</p><br>
+				<p style="font-family: Roboto; font-size: 13px; margin-left: 16px;">Width: 31 cm <br>Height: 45 cm <br>Depth: 19 <br>cm Holds: 25 L</p>
+			</div>
+
+
+
+		<!-- ---------------------left-side-bar---------------------------------------->
+
+		<!-- ---------------------Right-side-bar---------------------------------------->
+			<div id="" class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6" style="">
+				<p style="font-family: Roboto; font-size: 20px; font-weight: 500; color: gray; ">Material</p><br>
+				<p style="font-family: Roboto; font-size: 13px;">1680denier ballistic fabric</p>
+			</div>
+
+		<!-- ---------------------Right-side-bar---------------------------------------->
+
+
+		<!-- ---------------------Right-side-bar---------------------------------------->
+			<div id="" class="col-xl-5 col-lg-5 col-md-3 col-sm-4 col-6">
+				<p style="font-family: Roboto; font-size: 20px; font-weight: 500; color: gray; margin-left: 16px;">Specifications</p><br>
+				<p style="font-family: Roboto; font-size: 13px; margin-left: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus eget ligula ac scelerisque. Fusce condimentum lorem non eleifend ornare. Nullam sollicitudin rhoncus mauris, eget eleifend ipsum aliquam vitae. </p>
+			</div>
+
+		<!-- ---------------------Right-side-bar---------------------------------------->
+
+
+		<!-- ---------------------Right-side-bar---------------------------------------->
+			<div id="" class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">				  
+			</div> <br>
+		<!-- ---------------------Right-side-bar---------------------------------------->
+
+
+				       
+
+			</div>
+	      </div><br><br>
+
+					    <div class="container-fluid">
+					      <nav id="before-view" class="navbar" style="margin-left: 16px; margin-right: 16px;">
+			        		<p class="float-left">You viewed before</p>
+			                <div id="before-view-image" class="row justify-content-start float-left">
+
+		                    	<div class="card">
+								  <img src="image/3.png" >									  
+								</div>
+								<div class="card">
+								  <img src="image/2.png" >									  
+								</div>
+								<div class="card">
+								  <img src="image/3.png" >									  
+								</div>
+								<div class="card">
+								  <img src="image/2.png" >									  
+								</div>
+								<div class="card">
+								  <img src="image/3.png" >									  
+								</div>
+			                  
+			                </div>
+				          </nav>
+				        </div><br>
+
+				        <div class="container-fluid">
+					      <nav id="before-view" class="navbar" style="margin-left: 16px; margin-right: 16px;">
+			        		<p class="float-left">You may like</p>
+			                <div id="before-view-image" class="row justify-content-start float-left">
+
+		                    	<a href=""><div class="card" id="shoe3">
+								  <img src="image/3.png" ><br><p class="text-center">200tk</p>								  
+								</div></a>
+								<a href=""><div class="card" id="shoe2">
+								  <img src="image/2.png" ><br><p class="text-center">200tk</p>
+								</div></a>
+								<a href=""><div class="card" id="shoe4">
+								  <img src="image/3.png" ><br><p class="text-center">200tk</p>
+								</div></a>
+								<a href=""><div class="card" id="shoe1">
+								  <img src="image/2.png" ><br><p class="text-center">200tk</p>
+								</div></a>
+								<a href=""><div class="card" id="shoe5">
+								  <img src="image/3.png" ><br><p class="text-center">200tk</p>
+								</div></a>
+			                  
+			                </div>
+				          </nav>
+				        </div><br><br>
+
+	<!-- ---------------------Footer---------------------------------------> 
+	  <div  id="footer" style="background-color: black !important;"><br>
+	      <div class="container" >
+	        <div id="row" class="row">
+
+			          <!-- ---------------------Footer subscribe---------------------------------------> 
+				            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+				              <h6  style=" color: white;">Footway newsletter</h6>
+				              <form class="form-inline">
+				                <div class="form-group  mb-2">
+				                  <label for="inputPassword2" class="sr-only">Password</label>
+				                  <input type="password" class="form-control form-control-sm" id="inputPassword2" placeholder="Password" style=" width: 245px;">
+				                </div>
+				                <button type="submit" class="btn btn-sm  mb-2 text-center" style=" width: 245px; background-color: #da5b84; color: white;">Subscribe</button>
+				              </form>
+				            </div>
+			          <!-- ---------------------Footer subscribe---------------------------------------> 
+
+			         <!-- ---------------------Footer menu---------------------------------------> 
+				            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0">
+				            </div><br>
+
+				            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+				              <p id="title-footer" class="text-left" style="color: white;">Customer service</p>
+				              <p id="menu-footer" class="text-left" style="color: white;">
+				                <a href="#" style="color: green;">Disclaimer About us</a><br>
+				                <a href="#">Disclaimer General terms & conditions</a><br>
+				                <a href="#">Disclaimer Disclaimer</a><br>
+				                <a href="#">Disclaimer Privacy policy</a><br>
+				                <a href="#">Payment methods</a><br>
+				                <a href="#">Shipping & returns</a><br>
+				                <a href="#">Customer support</a><br>
+				                <a href="#">Sitemap</a></p>
+				            </div>
+
+				            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
+				              <p id="title-footer" class="text-left" style="color: white;">Products</p>
+				              <p id="menu-footer" class="text-left" style="color: white;">
+				                <a href="#">All Products</a><br>
+				                <a href="#">New Products</a><br>
+				                <a href="#">Offers </a><br>
+				                <a href="#">RSS Feed</a>
+				            </div>
+
+				            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+				              <p id="title-footer" class="text-left" style="color: white;">Customer service</p>
+				              <p id="menu-footer" class="text-left" style="color: white;">
+				                <a href="#">Register</a><br>
+				                <a href="#">My orders</a><br>
+				                <a href="#">My tickets</a><br>
+				                <a href="#">My wishlist</a>
+				              </p>
+
+				              <p id="title-footer" class="text-left" style="color: white;">Your company</p>
+				              <p id="menu-footer" class="text-left" style="color: white;">
+				                <a href="#">A short description</a><br>
+				                <a href="#">++8801622-595902</a><br>
+				                <a href="#">masud.jony77@gmail.com</a><br>
+				              </p>
+
+				            </div>
+			         <!-- ---------------------Footer menu---------------------------------------> 
+
+	        </div><br><br>
+
+					  <div><br><br>
+					      <div class="container-fluid">
+					        <div class="row  text-center">					          
+					          <div> <img class="img-fluid" src="Icons/customers.png"><br><br><p style="color: white;">Over 10,000 customers 
+					          </p></div>
+					          <div> <img class="img-fluid" src="Icons/brand-stock.png"><br><br><p style="color: white; margin-top: 15px;">Over 100 brands in stock
+					          </p></div>
+					        </div>
+					      </div>
+					  </div>
+
+		   </div>
+
+				      
+	  </div>
+		<!-- ---------------------Footer-pricing---------------------------------------> 
+		  <div  id="Footer-pricing"><br>
+		      <div class="container-fluid">
+		        <div id="row" class="row no-gutters justify-content-center">
+		          <div> <img class="img-fluid" src="image/facebook.png"> </div>
+		          <div> <img class="img-fluid" src="image/google.png"> </div>
+		          <div> <img class="img-fluid" src="image/trusted.png"> </div>
+		          <div> <img class="img-fluid" src="image/ssl.png"> </div>
+		          <div> <img class="img-fluid" src="image/adyen.png"> </div>
+		          <div> <img class="img-fluid" src="image/visa.png"> </div>
+		          <div> <img class="img-fluid" src="image/mastercard.png"> </div>
+		          <div> <img class="img-fluid" src="image/barclays.png"> </div>
+		          <div> <img class="img-fluid" src="image/lloyds.png"> </div>
+		          <div> <img class="img-fluid" src="image/hsbc.png"> </div>
+		          <div> <img class="img-fluid" src="image/royal.png"> </div>
+		          <div> <img class="img-fluid" src="image/dhl.png"> </div>
+		        </div><br><p id="copyright">  © Copyright 2019 Footway - Powered by <span> Ultra Angle </span></p>
+		      </div>
+		  </div>
+		<!-- ---------------------Footer-pricing--------------------------------------->
+	<!-- ---------------------Footer---------------------------------------> 
+
+
+<div class="" id="Explore-Reviews">
+    <div id="Explore-Reviews-left">      
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#Explore-Reviews-left-bar" aria-expanded="true" aria-controls="collapseOne">
+        	<div id="color-available" class="float-right"></div>
+         <p style="color: gray; font-family: Roboto; font-size: 19.5px; font-weight: bold;">
+			 		Explore Reviews</p>
+        </button> 
+    </div>
+
+    <div id="Explore-Reviews-left-bar" class="collapse" aria-labelledby="Explore-Reviews-left" data-parent="#Explore-Reviews">
+       le element tied to the control to screen readers and similar assistive technologies. If the collapsible element is closed by default, the attribute on the control element should have a value of aria-expanded="false". If you’ve set
+    </div>
+
+</div><br><br><br><br>
+
+
+	     
+					
+<!----------------------------Body ----------------------------------------->
+</html>

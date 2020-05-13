@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----------------------------Head ----------------------------------------->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+    <title>Cart</title>
+    <link rel="icon" type="text/css" href="Icons/title.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <!---------------------------------- Attached cdn links ----------------------------------------->
+          <link rel="stylesheet" type="text/css" href="Cart.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+          <!-- jQuery library -->
+          <script src="Cart.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="Cart.js"></script>
+
+          <!-- Popper JS -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+          <!-- Latest compiled JavaScript -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+         <!---------------------------------- font ----------------------------------------->
+          <link href="https://fonts.googleapis.com/css?family=Croissant+One&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet">
+         <!---------------------------------- font ----------------------------------------->
+    <!---------------------------------- Attached cdn links ----------------------------------------->
+    
+
+  </head>  
+<!----------------------------Head ----------------------------------------->
+
+<!----------------------------Body ----------------------------------------->
+
+
+<body>
+
+	<!-- ---------------------Header---------------------------------------->
+	  
+	      <div id="header" class="container-fluid fixed-top">
+
+	         <nav id="header" class="navbar navbar-expand-lg ">
+
+	              <a class="" href="#"> <img src="Icons/logo.png"> </a>
+
+	          
+	              <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-expanded="    false" aria-label="Toggle navigation">
+	                <div id="humbargar" class="block">
+	                  <div class="cta">
+	                    <div  class="toggle-btn type1"></div>
+	                  </div>
+	                </div>
+	              </div> 
+
+	            <div class="collapse navbar-collapse" id="navbarSupportedContent"><hr><hr><hr><hr><hr><hr>
+
+	                <!-- ---------------------menu-------------------------------------------- -->
+                              <div id="menu" class="text-center">
+                                <ul class="navbar-nav mr-auto ">
+
+                                  <li class="nav-item active dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <b>Category</b>
+                                    </a>
+                                    <div id="under-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item " href="#">
+                                      	<p  style="margin-top: 10px;">Accessories
+	                                      <ul>
+	                                          <li>
+	                                            bangladesh
+	                                          </li>
+	                                      </ul>
+                                      	</p>
+                                 	  </a>
+                                      <a class="dropdown-item" href="#"><p style="margin-top: 10px;">Bags</p>
+                                      </a>
+                                      <a class="dropdown-item " href="#"><p style="margin-top: 10px;">Electronics</p>
+                                      </a>
+                                      <a class="dropdown-item" href="#"><p style="margin-top: 10px;">Clothes</p>
+                                      </a>
+                                      <a class="dropdown-item " href="#"><p style="margin-top: 10px;">Interior Designs</p>
+                                      </a>
+                                      <a class="dropdown-item" href="#"><p style="margin-top: 10px;">Sofas</p>
+                                      </a>
+                                      <a class="dropdown-item " href="#"><p style="margin-top: 10px;">Special Chrismas</p></a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">
+                                      	<p style="margin-top: 5px;">Electronics</p>
+                                      </a>
+                                    </div>
+                                    
+                                  </li>
+
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"> <b> Home</b></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"> <b> Product</b></a>
+                                  </li>
+                                  
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"><b>About</b></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#"><b>Support</b></a>
+                                  </li>
+                                </ul>
+                              </div><hr>
+	                <!-- ---------------------menu-------------------------------------------- -->
+
+	                <!-- ---------------------icon-------------------------------------------- -->
+                                <ul id="icon" class="navbar-nav ml-auto text-center">
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="#"> <img src="Icons/user.png"> </a>
+                                    </li>
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="#"> <img src="Icons/Search.png"> </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#"> <img src="Icons/whishlist.png"> </a>
+                                    </li>
+                                    
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="#"> <img src="Icons/Cart.png"> </a>
+                                    </li>
+                                </ul><hr>
+	                <!-- ---------------------icon-------------------------------------------- -->
+
+	                <!-- ---------------------language-------------------------------------------- -->
+                                <form class="">
+                                  <div class="form-row align-items-center text-center">
+                                    <div class="col-auto my-1">
+                                      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                                      <select  class="custom-select mr-sm-2" id="inlineFormCustomSelect" style="background-color: #f3f3f4; ">
+                                        <option selected>English</option>
+                                        <option value="1">Bangla</option>
+                                        <option value="2">Hini</option>
+                                        <option value="3">Urdu</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </form>
+	                <!-- ---------------------language-------------------------------------------- -->
+	            </div>
+	          </nav>
+	      </div><br><br><br><br><br><br>
+	<!-- ---------------------Header---------------------------------------->
+
+  <!-- ---------------------Cart---------------------------------------->
+      <div class="container-fluid">
+        <div class="row navbar">
+          <div class="col-xl">
+            <p style="font-family: 'Croissant One', cursive; font-size: 40px; letter-spacing: -2.31px; color: #e17485;">
+            Your shopping cart</p>
+          </div>
+        </div>
+      </div><br>
+
+      <div class="container">
+        <div  id="cart"  class="row no-gutters navbar text-center" style="background-color: #d7d8d9;">
+          <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><img src="image/shoe4.png"></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px; font-weight: 600; line-height: 18px;"><p>Numbuck<br>
+            <small style=" text-align: left !important;">Ref : sh63559</small></p></div>      
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><p>Gray</p></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><p>2</p></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px; font-weight: 600;"><p>2000TK</p></div>
+        </div>
+      </div>
+      <div class="container">
+        <div  id="cart"  class="row no-gutters navbar text-center" style="background-color: #d7d8d9;">
+          <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><img src="image/shoe4.png"></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px; font-weight: 600; line-height: 18px;"><p>Numbuck<br>
+            <small style=" text-align: left !important;">Ref : sh63559</small></p></div>      
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><p>Gray</p></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><p>2</p></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px; font-weight: 600;"><p>2000TK</p></div>
+        </div>
+      </div>
+      <div class="container">
+        <div  id="cart"  class="row no-gutters navbar text-center" style="background-color: #d7d8d9;">
+          <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><img src="image/shoe4.png"></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px; font-weight: 600; line-height: 18px;"><p>Numbuck<br>
+            <small style=" text-align: left !important;">Ref : sh63559</small></p></div>      
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><p>Gray</p></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px;"><p>2</p></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12" style="margin-top: 10px; font-weight: 600;"><p>2000TK</p></div>
+        </div>
+      </div><br>
+
+      <div class="container">
+        <div  id="Total-Parches" class="row no-gutters navbar text-center" style="background-color:#d7d8d9;">
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6"><p style="margin-top: 15px;font-size: 20px; font-weight: 700;">Total Parches:</p></div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6"><p style="margin-top: 15px;font-size: 20px;font-weight: 700;">8000TK</p></div>
+        </div>
+      </div><br><br>
+
+      <div class="container" style="margin-top: 10px;">
+        <div  id="Total-Parches" class="row no-gutters navbar text-center">
+
+          <a href="" id="cart-button-1" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <p>Back to shop</p>
+          </a>
+
+           <a id="cart-button-2" class=" text-center col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="" >          
+              <p>Continue Cart</p>          
+          </a>
+
+        </div>
+      </div><br>    
+  <!-- ---------------------Cart---------------------------------------->
+
+  <!-- ---------------------Countinue Cart---------------------------------------->
+    <div class="collapse" id="collapseExample" >
+
+      <div class="container">
+          <div  id=""  class="row no-gutters navbar text-center" style="background-color: white;">
+            <div id="login" style="margin-top: 15px;"><p style="font-weight: 400;margin-left: 5px; font-family: roboto;">Already registered? or please<a href=""> <b style="margin-left: 15px; color: #e87688;">Login </b></a> <a href=""> <b style="margin-left: 15px; color: #e87688;">Sign Up</b></a></p></div>      
+          </div>
+      </div>
+
+      <div class="container">
+        <div class="row" style="margin-left: 0px; margin-right: 0px;">
+
+        <!-- ---------------------Left form bar---------------------------------------->
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" style="background-color: #d7d8d9; margin-top: 30px;">
+            <br>
+            <p style="font-family: roboto; font-size: 20px; font-weight: 700;">Delivery Address</p>
+           <form>
+              <label for="exampleFormControlInput1">Full name</label>
+              <input type="text" class="form-control rounded-0" id="exampleFormControlInput1" placeholder="Full name" style="font-size: 14px; height: 38px; background-color: #ededed;"><br>
+
+              <div class="row">
+                <div class="col">
+                  <label for="mobile-no">Mobile Number</label>
+                  <input type="text" class="form-control rounded-0" id="mobile-no" placeholder="Type mobile phone number" style="font-size: 14px; height: 38px;background-color: #ededed;">
+                </div>
+                <div class="col">
+                  <label for="email">Email Address</label>
+                  <input type="text" class="form-control rounded-0" id="email" placeholder="Type E-mail address" style="font-size: 14px; height: 38px;background-color: #ededed;">
+                </div>
+              </div><br>
+
+               <label for="exampleFormControlInput1">Address</label>
+              <input type="text" class="form-control rounded-0" id="exampleFormControlInput1" placeholder="Type full Address" style="font-size: 14px; height: 38px;background-color: #ededed;"><br>
+
+              <div class="row">
+                <div class="col">
+                  <label for="mobile-no">City</label>
+                  <input type="text" class="form-control rounded-0" id="mobile-no" placeholder="Type city" style="font-size: 14px; height: 38px;background-color: #ededed;">
+                </div>
+                <div class="col">
+                  <label for="email">Country</label>
+                  <input type="text" class="form-control rounded-0" id="email" placeholder="Type Country" style="font-size: 14px; height: 38px;background-color: #ededed;">
+                </div>
+                <div class="col">
+                  <label for="email">Postal co.</label>
+                  <input type="text" class="form-control rounded-0" id="email" placeholder="Type Postal code" style="font-size: 14px; height: 38px;background-color: #ededed;">
+                </div>
+              </div><br>              
+
+            </form>
+            <form class="was-validated">
+              <div class="row" style="margin-left: 0px">
+              <div class="col custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                <label class="custom-control-label" for="customControlValidation1"style="color: black;">Delivery to this address</label>
+              </div>
+         
+              <div class="col custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="second" required>
+                <label class="custom-control-label" for="second"style="color: black;">Save this information for next time</label>
+              </div>
+              </div>
+            </form>
+          </div><br><br>
+        <!-- ---------------------Left form bar---------------------------------------->
+
+          <div class="col-xl-1"></div>
+
+        <!-- ---------------------Right form bar---------------------------------------->
+          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12" style=" margin-top: 30px;">
+
+            <div id="form" style="background-color: #d7d8d9; margin-left: -15px; margin-right: -15px;"><br>
+              <p style=" margin-left: 20px; font-weight: 700; font-family: roboto; font-size: 20px;">Payment Method</p><br>
+             <form class="was-validated" style=" margin-left: 20px;">
+
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="type2" name="radio-stacked" required>
+                  <label id="Payment-bkash-rocket-surecash" class="custom-control-label" for="type2" style="color: black;">
+                    <ul>
+                      <li> <img class="img-fluid" src="image/facebook.png"> </li>
+                      <li> <img class="img-fluid" src="image/google.png"> </li>
+                      <li> <img class="img-fluid" src="image/hsbc.png"> </li>
+                    </ul>
+                  </label>
+                </div>
+
+                <div class="custom-control custom-radio" style="margin-top: 28px; font-weight: 500;">
+                  <input type="radio" class="custom-control-input" id="type3" name="radio-stacked" required>
+                  <label class="custom-control-label" for="type3" style="color: black;">
+                    <p style="margin-left: 19px; font-family: roboto;">Payment with Card</p>
+                    </label>  
+                </div>
+
+                <div class="custom-control custom-radio" style="font-weight: 500;">
+                  <input type="radio" class="custom-control-input" id="type5" name="radio-stacked" required>
+                  <label class="custom-control-label" for="type5" style="color: black;">
+                  <p style="margin-left: 19px; font-family: roboto;">Cash on delivery</p>
+                </label>
+                </div>
+                
+                <div class="custom-control custom-radio" style=" font-weight: 500;">
+                  <input type="radio" class="custom-control-input" id="type4" name="radio-stacked" required>
+                  <label class="custom-control-label" for="type4" style="color: black;">
+                  <p style="margin-left: 19px; font-family: roboto;">Payment with Bank Account </p>
+                </label>  
+                </div>
+              </form>
+            </div>
+
+              <div  id="available"  class="row no-gutters navbar text-center" style="background-color: white; margin-left: -15px; margin-right: -15px; margin-top: 20px;">
+                <div id="login" style="margin-top: 15px;"><p style="font-weight: 700;margin-left: 5px; font-family: roboto; font-size: 20px;">Available payment with</p>
+                </div> 
+              </div>
+
+              <div id="bal" class="row" >
+               <img class="" src="image/facebook.png">
+               <img class="" src="image/google.png">
+               <img class="" src="image/trusted.png">
+               <img class="" src="image/ssl.png">
+               <img class="" src="image/adyen.png">
+               <img class="" src="image/visa.png">
+              </div>
+
+          </div>                
+        <!-- ---------------------Right form bar---------------------------------------->
+
+        </div><br><br>
+
+      <button id="cart-button-3" type="button" class="btn  btn-lg btn-block rounded-0">
+        <p>Place Order</p>
+      </button>
+
+      </div> 
+    </div><br><br>
+  <!-- ---------------------Countinue Cart---------------------------------------->
+
+  <!-- ---------------------Footer---------------------------------------> 
+    <div  id="footer"><br>
+      <div class="container">
+        <div id="row" class="row">
+
+          <!-- ---------------------Footer subscribe---------------------------------------> 
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+              <h6  style=" color: white;">Footway newsletter</h6>
+              <form class="form-inline">
+                <div class="form-group  mb-2">
+                  <label for="inputPassword2" class="sr-only">Password</label>
+                  <input type="password" class="form-control form-control-sm rounded-0" id="inputPassword2" placeholder="Password" style=" width: 245px;">
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm  mb-2 text-center rounded-0" style=" width: 245px;">Subscribe</button>
+              </form>
+            </div>
+          <!-- ---------------------Footer subscribe---------------------------------------> 
+
+          <!-- ---------------------Footer menu---------------------------------------> 
+            <div class="col-xl-1 col-lg-0 col-md-0 col-sm-0 col-0">
+            </div><br>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+              <p id="title-footer" class="text-left" style="color: white;">Customer service</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                <a href="#">General terms & conditions</a><br>
+                <a href="#">Privacy policy</a><br>
+                <a href="#">Payment methods</a><br>
+                <a href="#">Shipping & returns</a><br>
+                <a href="#">Customer support</a><br>
+                <a href="#">Sitemap</a></p>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+              <p id="title-footer" class="text-left" style="color: white;">Products</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                <a href="#">All Products</a><br>
+                <a href="#">New Products</a><br>
+                <a href="#">Offers </a><br>
+                <a href="#">RSS Feed</a>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">
+              <p id="title-footer" class="text-left" style="color: white;">Customer service</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                <a href="#">Register</a><br>
+                <a href="#">My orders</a><br>
+                <a href="#">My tickets</a><br>
+                <a href="#">My wishlist</a>
+              </p>
+
+              <p id="title-footer" class="text-left" style="color: white;">Your company</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                About us<br>
+                ++8801622-595902<br>
+                masud.jony77@gmail.com<br>
+              </p>
+
+            </div>
+          <!-- ---------------------Footer menu---------------------------------------> 
+
+        </div>
+      </div>
+    </div>
+
+        <!-- ---------------------Footer-pricing---------------------------------------> 
+          <div  id="Footer-pricing"><br>
+              <div class="container text-center">
+                <div id="row" class="row no-gutters">
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/facebook.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/google.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/trusted.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/ssl.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/adyen.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/visa.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/mastercard.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/barclays.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/lloyds.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/hsbc.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/royal.png"> </div>
+                  <div class="col-xl-1 col-lg-1 col-sm-2 col-3"> <img class="img-fluid" src="image/dhl.png"> </div>
+                </div><br><p id="copyright" >  © Copyright 2019 Footway - Powered by <a href=""> Ultra Angle </a></p>
+              </div>
+          </div>
+        <!-- ---------------------Footer-pricing--------------------------------------->
+  <!-- ---------------------Footer--------------------------------------->  
+
+</body>
+
+
+<!----------------------------Body----------------------------------------->
+</html>

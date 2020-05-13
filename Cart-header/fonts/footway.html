@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----------------------------Head ----------------------------------------->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+    <title>Foot Way</title>
+    <link rel="icon" type="text/css" href="Icons/title.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <!---------------------------------- Attached cdn links ----------------------------------------->
+          <link rel="stylesheet" type="text/css" href="footway.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+          <!-- jQuery library -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="footway.js"></script>
+
+          <!-- Popper JS -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+          <!-- Latest compiled JavaScript -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!---------------------------------- Attached cdn links ----------------------------------------->
+    
+
+  </head>  
+<!----------------------------Head ----------------------------------------->
+
+<!----------------------------Body ----------------------------------------->
+  <body>
+  
+<!-- ---------------------Header---------------------------------------->
+  
+      <div id="header" class="container-fluid">
+
+         <nav id="header" class="navbar navbar-expand-lg ">
+
+              <a class="" href="#"> <img src="Icons/logo.png"> </a>
+
+          
+              <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-expanded="    false" aria-label="Toggle navigation">
+                <div id="humbargar" class="block">
+                  <div class="cta">
+                    <div  class="toggle-btn type1"></div>
+                  </div>
+                </div>
+              </div> 
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"><hr><hr><hr><hr><hr><hr>
+
+                <!-- ---------------------menu-------------------------------------------- -->
+                                  <div id="menu">
+                                    <ul class="navbar-nav mr-auto ">
+
+                                      <li class="nav-item active dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <b>Category</b>
+                                        </a>
+                                        <div id="under-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item " href="#"><p  style="margin-top: 10px;">Accessories
+                                            <ul>
+                                              <li>
+                                                bangladesh
+                                              </li>
+                                            </ul>
+                                          </p></a>
+                                          <a class="dropdown-item" href="#"><p  style="margin-top: 10px;">Bags</p></a>
+                                          <a class="dropdown-item " href="#"><p  style="margin-top: 10px;">Electronics</p></a>
+                                          <a class="dropdown-item" href="#"><p  style="margin-top: 10px;">Clothes</p></a>
+                                          <a class="dropdown-item " href="#"><p  style="margin-top: 10px;">Interior Designs</p></a>
+                                          <a class="dropdown-item" href="#"><p  style="margin-top: 10px;">Sofas</p></a>
+                                          <a class="dropdown-item " href="#"><p  style="margin-top: 10px;">Special Chrismas</p></a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#"><p  style="margin-top: 5px;">Electronics</p></a>
+                                        </div>
+                                        
+                                      </li>
+
+                                      <li class="nav-item active">
+                                        <a class="nav-link" href="#"> <b> Home</b></a>
+                                      </li>
+                                      <li class="nav-item active">
+                                        <a class="nav-link" href="#"> <b> Product</b></a>
+                                      </li>
+                                      
+                                      <li class="nav-item active">
+                                        <a class="nav-link" href="#"><b>About</b></a>
+                                      </li>
+                                      <li class="nav-item active">
+                                        <a class="nav-link" href="#"><b>Support</b></a>
+                                      </li>
+                                    </ul>
+                                  </div><hr>
+                <!-- ---------------------menu-------------------------------------------- -->
+
+                <!-- ---------------------icon-------------------------------------------- -->
+                                    <ul id="icon" class="navbar-nav ml-auto ">
+                                        <li class="nav-item active">
+                                          <a class="nav-link" href="#"> <img src="Icons/user.png"> </a>
+                                        </li>
+                                        <li class="nav-item active">
+                                          <a class="nav-link" href="#"> <img src="Icons/Search.png"> </a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#"> <img src="Icons/whishlist.png"> </a>
+                                        </li>
+                                        
+                                        <li class="nav-item active">
+                                          <a class="nav-link" href="#"> <img src="Icons/Cart.png"> </a>
+                                        </li>
+                                    </ul><hr>
+                <!-- ---------------------icon-------------------------------------------- -->
+
+                <!-- ---------------------language-------------------------------------------- -->
+                                    <form>
+                                      <div class="form-row align-items-center align-center">
+                                        <div class="col-auto my-1">
+                                          <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                                          <select  class="custom-select mr-sm-2" id="inlineFormCustomSelect" style="background-color: #f3f3f4; ">
+                                            <option selected>English</option>
+                                            <option value="1">Bangla</option>
+                                            <option value="2">Hini</option>
+                                            <option value="3">Urdu</option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                    </form>
+                <!-- ---------------------language-------------------------------------------- -->
+            </div>
+          </nav>
+      </div>
+<!-- ---------------------Header---------------------------------------->
+
+<!-- ---------------------Slider---------------------------------------->
+            <div id="main-slider" class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div id="slider" class="carousel-item active">
+                        <img src="image/slider.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/slider.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/slider.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div><br><br>
+<!-- ---------------------Slider---------------------------------------->
+
+<!-- ---------------------shoe result----------------------------------->
+    <br><br> <div id="shoe-result" class="container-fluid">
+           <div class="col-12">
+           <h1 id="shoe"><b>SHOES</b></h1><br>
+           <h5 id="result">30,919 results</h5>
+           <p id="welcome">
+            Welcome to Footway powered <b><b> Business Boost</b></b>. Here you’ll find over 30,000 types of shoes for all occasions – there is surely something to suit your taste. Below you can see a selection of our most popular shoes. You can also search among the shoes we offer and choose your next pair with the help of our filters.
+            Shoes from Footway
+            Among our 30,000 pairs of shoes, you can find not just your favourites, but also ladies’ shoes, children’s shoes and men’s shoes in all different styles and for all types of occasions. There are trainers, boots, high heels, flats, rubber boots and slippers, in hundreds of gorgeous styles. You’ll find shoes from the world’s biggest brands such as Nike, adidas, Converse and Birkenstock, but also special recommendations and exciting new brands or styles.          </p>
+           </div>
+          </div>
+         </div><br><br><br>
+<!-- ---------------------shoe result----------------------------------->
+
+<!-- ---------------------Shoe category section------------------------->
+          <div class="row no-gutters">
+              <div id="men-shoe" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+
+                <img class="img-fluid" src="image/men-shoe.png"> 
+                 
+                 <div class="card-img-overlay ">
+                    <h2 id="men" class="card-title ">MEN SHOE</h2>
+                    <p id="off" class="card-text">Up to<b> 20%</b> off</p><br>
+                    <p id="more" > <a class="nav nav-link" href="#"> More Collection <img src="Icons/arrow.png"></a> </p>
+                  </div>
+              </div>
+              <div id="women-shoe" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"> 
+                <a href="#"><img class="img-fluid" src="image/women-shoe.png"></a> 
+                <div class="card-img-overlay ">
+                    <h2 id="men" class="card-title ">WOMEN SHOE</h2>
+                    <p id="off" class="card-text">Up to <b> 20%</b> off</p><br>
+                    <p id="more" > <a class="nav nav-link" href="#"> More Collection <img src="Icons/arrow.png"></a> </p>
+                  </div>
+              </div> 
+              <div id="children-shoe" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <a href="#"><img class="img-fluid" src="image/children-shoe.png"></a>
+                <div class="card-img-overlay ">
+                    <h2 id="men" class="card-title ">CHILDREN SHOE</h2>
+                    <p id="off" class="card-text">Up to<b> 20%</b> off</p><br>
+                    <p id="more" > <a class="nav nav-link" href="#"> More Collection <img src="Icons/arrow.png"></a> </p>
+                  </div>
+              </div> 
+          </div> <br><br><br>      
+<!-- ---------------------Shoe category section-------------------------> 
+
+<!-- ---------------------Products--------------------------------------->
+        <div>
+          <nav class="navbar justify-content-center">
+
+            <div class="container">
+              
+                <div id="row" class="row justify-content-center">
+                  
+                  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br><br>
+                        <p style="font-size: px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  
+                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round" class="">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br>
+                        <p style="font-size: 22px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round" class="">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br>
+                        <p style="font-size: 22px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round" class="">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br>
+                        <p style="font-size: 22px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round" class="">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br>
+                        <p style="font-size: 22px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round" class="">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br>
+                        <p style="font-size: 22px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round" class="">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br>
+                        <p style="font-size: 22px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div id="round" class="">
+                      <div id="box" class="card-body text-center">
+                        <a id="icon-shoe"  href="#"> <img src="Icons/timberland.png"> </a> <br><br><br>
+                        <a id="shoe"  href="#"> <img src="image/1.png"> </a> <br><br>
+                        <p style="font-size: 22px; color: #f37782;"><b>$ 40.00</b></p>
+                        
+                        <div id="pricing-product" style="text-align: right;">
+                          <p style="text-align: center;">Timberland 6 in Premium Black Numbuck Mono</p>
+                          <a href="#"> <img class="text-right" src="Icons/zoom.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/whishlist.png"> </a>
+                          <a href="#"> <img class="text-right" src="Icons/Cart.png"> </a>
+                          <a href="#" style="float: left;"> <img src="Icons/star.png"> </a>
+                        </div>                       
+                      </div>
+                    </div>
+                  </div>
+
+                    
+
+                  
+                </div>
+              </div>
+              
+          </nav>
+                </div><br><br><br>
+<!-- ---------------------Products--------------------------------------->
+
+<!-- ---------------------next page--------------------------------------->
+              <nav id="next-page" aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav><br><br>
+<!-- ---------------------next page--------------------------------------->
+
+<!-- ---------------------Partner--------------------------------------->
+      <div id="partner"><br><br>
+        <div id="partners" class="container">
+          <div>
+          <h1>POPULAR BRANDS</h1><hr><br>
+          </div><br><br>
+          <div class="customer-logos">
+            <div class="slide "><img src="image/dr.png"></div>
+            <div class="slide"><img src="image/cleke.png"></div>
+            <div class="slide"><img src="image/addidas.png"></div>
+            <div class="slide"><img src="image/nike.png"></div>
+            <div class="slide"><img src="image/rebook.png"></div>
+          </div><br><br>
+        </div>
+       </div>
+<!-- ---------------------partner--------------------------------------->
+
+
+<!-- ---------------------Footer---------------------------------------> 
+  <div  id="footer"><br>
+      <div class="container">
+        <div id="row" class="row">
+
+          <!-- ---------------------Footer subscribe---------------------------------------> 
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+              <h6  style=" color: white;">Footway newsletter</h6>
+              <form class="form-inline">
+                <div class="form-group  mb-2">
+                  <label for="inputPassword2" class="sr-only">Password</label>
+                  <input type="password" class="form-control form-control-sm" id="inputPassword2" placeholder="Password" style=" width: 245px;">
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm  mb-2 text-center" style=" width: 245px;">Subscribe</button>
+              </form>
+            </div>
+          <!-- ---------------------Footer subscribe---------------------------------------> 
+
+          <!-- ---------------------Footer menu---------------------------------------> 
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0">
+            </div><br>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+              <p id="title-footer" class="text-left" style="color: white;">Customer service</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                <a href="#">Disclaimer About us</a><br>
+                <a href="#">Disclaimer General terms & conditions</a><br>
+                <a href="#">Disclaimer Disclaimer</a><br>
+                <a href="#">Disclaimer Privacy policy</a><br>
+                <a href="#">Payment methods</a><br>
+                <a href="#">Shipping & returns</a><br>
+                <a href="#">Customer support</a><br>
+                <a href="#">Sitemap</a></p>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
+              <p id="title-footer" class="text-left" style="color: white;">Products</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                <a href="#">All Products</a><br>
+                <a href="#">New Products</a><br>
+                <a href="#">Offers </a><br>
+                <a href="#">RSS Feed</a>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+              <p id="title-footer" class="text-left" style="color: white;">Customer service</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                <a href="#">Register</a><br>
+                <a href="#">My orders</a><br>
+                <a href="#">My tickets</a><br>
+                <a href="#">My wishlist</a>
+              </p>
+
+              <p id="title-footer" class="text-left" style="color: white;">Your company</p>
+              <p id="menu-footer" class="text-left" style="color: white;">
+                <a href="#">A short description</a><br>
+                <a href="#">++8801622-595902</a><br>
+                <a href="#">masud.jony77@gmail.com</a><br>
+              </p>
+
+            </div>
+          <!-- ---------------------Footer menu---------------------------------------> 
+
+        </div>
+      </div>
+  </div>
+<!-- ---------------------Footer--------------------------------------->  
+
+<!-- ---------------------Footer-pricing---------------------------------------> 
+  <div  id="Footer-pricing"><br>
+      <div class="container-fluid">
+        <div id="row" class="row no-gutters justify-content-center">
+          <div> <img class="img-fluid" src="image/facebook.png"> </div>
+          <div> <img class="img-fluid" src="image/google.png"> </div>
+          <div> <img class="img-fluid" src="image/trusted.png"> </div>
+          <div> <img class="img-fluid" src="image/ssl.png"> </div>
+          <div> <img class="img-fluid" src="image/adyen.png"> </div>
+          <div> <img class="img-fluid" src="image/visa.png"> </div>
+          <div> <img class="img-fluid" src="image/mastercard.png"> </div>
+          <div> <img class="img-fluid" src="image/barclays.png"> </div>
+          <div> <img class="img-fluid" src="image/lloyds.png"> </div>
+          <div> <img class="img-fluid" src="image/hsbc.png"> </div>
+          <div> <img class="img-fluid" src="image/royal.png"> </div>
+          <div> <img class="img-fluid" src="image/dhl.png"> </div>
+        </div><br><p id="copyright">  © Copyright 2019 Footway - Powered by <span> Ultra Angle </span></p>
+      </div>
+  </div>
+<!-- ---------------------Footer-pricing--------------------------------------->    
+  
+
+
+</body>
+<!----------------------------Body ----------------------------------------->
+</html>

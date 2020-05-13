@@ -1,0 +1,62 @@
+body{
+	background-color: #ededed !important;
+}
+
+		#cart-header{
+			width: 360px; height: 100%;	margin-top: 10px; box-shadow: 0px 0px 5px 0px;
+		}
+		#cart-item1 li{
+			float: left; list-style: none; text-decoration: none;
+
+		}
+		#cart{
+			width: 360px; background-color: white; margin-top: -10px;
+		}
+		#cart li img{
+			margin-left: -30px !important;
+		}
+		#name{
+			font-family: roboto; margin-left: -10px;
+		}
+		#name p{
+			margin-left: 10px;
+		}
+		#cancle{
+			float: right; margin-top: -57px;
+		}
+		#last{
+			width: 360px;
+		}
+		#last li{
+			list-style: none; text-decoration: none; float: left; margin-top: 15px;
+		}
+		#last li img{
+			margin-left: -20px;
+		}
+		#total {
+			margin-left: 60px;
+		}
+		#cart{
+			width: 360px; height: 82px;			
+		}
+		#cart li{
+			list-style: none; text-decoration: none; float: left; margin-right: 25px; margin-top: 17px;
+		}
+		#cart-button-1{
+			width: 155px; height: 40px; background-color: #f37782; margin-left: 20px;
+		}
+		#cart-button-1 p{
+			font-size: 14px;font-family: roboto; font-weight: 500; text-align: center; margin-top: 6px; color: white;
+		}
+		#cart-button-2{
+			width: 155px; height: 40px; background-color: #f37782; margin-left: 185px; margin-top: -40px; text-align: center;
+		}
+		#cart-button-2 p{
+			font-size: 14px; font-family: roboto; font-weight: 500; text-align: center; color: white;
+		}
+		#cart-button-1:hover{
+			cursor: pointer; background-color: #d06a7a !important;
+		}
+		#cart-button-2:hover{
+			cursor: pointer; background-color: #d06a7a !important;
+		}
