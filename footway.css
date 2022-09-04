@@ -321,8 +321,16 @@ body{
 /********************************shoe result**********************/
 
 /********************************shoe category**********************/	
+		div#women-shoe {
+		    cursor: pointer;
+		    overflow: hidden;
+		}
 		#women-shoe{
 			margin-left: -1px;
+		}
+
+		div#women-shoe:hover img.img-fluid {
+		    transform: scale(1.1);
 		}
 		#men {
 			font-family: roboto, sans-serif;
